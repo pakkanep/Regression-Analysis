@@ -1,8 +1,21 @@
 # Regression Analysis Project
 
-- In this project I'm using Python's Statsmodels library to predict systolic blood pressure (SBP) based on various health indicators such as age, cholesterol levels, weight, and smoking habits.
+- In this project I'm using Python's Statsmodels library to predict systolic blood pressure (SBP) using Linear regression.
+
+- Im also predicting the propability of high blood pressure and if patients are showing symptoms of coronary heart disease. For these two I'm using logistic regression.
 
 - The analysis tries to identify the biggest factors affecting SBP and develop predictive models using both linear and logistic regression.
+
+## Notebook Sections
+
+- **Data Loading and Preprocessing**: Loads the dataset, rescaling the data (centering and normalizing), and prepares it for analysis.
+- **Exploratory Data Analysis (EDA)**: Creates visualizations to explore data patterns and relationships between the dependent and independent variables.
+- **Linear Regression**: Builds models to predict systolic blood pressure (SBP) and interprets the results.
+- **Logistic Regression**: Builds models to estimate the risk of high blood pressure or showing symptoms of Coronary heart disease.
+- **Model Evaluation**: Measures model performance using different metrics to see how well they predict outcomes.
+- **Conclusions**: Summarizes the main findings and what the models reveal about the data.
+
+
 
 ## Data
 
